@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #141414;
+  --bg-tertiary: #1a1a1a;
+  --text-primary: #e0e0e0;
+  --text-secondary: #888;
+  --accent: #00ff88;
+  --accent-dim: #00aa55;
+  --border: #333;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+}
+
+#header h1 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+#controls {
+  display: flex;
+  gap: 8px;
+}
+
+#controls button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+#controls button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Main */
+#main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Canvas Container */
+#canvas-container {
+  flex: 1;
+  position: relative;
+  background: #000;
+  min-height: 0;
+}
+
+#demo-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Navigation */
+#navigation {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  padding: 16px 20px;
+}
+
+/* Era Tabs */
+#era-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.era-tab {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.15s ease;
+}
+
+.era-tab:hover {
+  border-color: var(--accent-dim);
+  color: var(--text-primary);
+}
+
+.era-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-primary);
+}
+
+/* Demo Grid */
+#demo-grid {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  min-height: 48px;
+}
+
+.demo-card {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.demo-card:hover {
+  border-color: var(--accent);
+  background: var(--bg-secondary);
+}
+
+.demo-card.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(0, 255, 136, 0.2);
+}
+
+/* Demo Info */
+#demo-info {
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+#demo-title {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 4px;
+  color: var(--accent);
+}
+
+#demo-description {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+#demo-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Fullscreen mode */
+body.fullscreen #header,
+body.fullscreen #navigation {
+  display: none;
+}
+
+body.fullscreen #canvas-container {
+  position: fixed;
+  inset: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #header h1 {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .era-tab {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+
+  .demo-card {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+/* CRT effect overlay (optional, toggled via JS) */
+.crt-overlay {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15) 0px,
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  z-index: 10;
+}

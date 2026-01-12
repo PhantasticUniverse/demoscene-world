@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demoscene World</title>
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <div id="app">
+    <header id="header">
+      <h1>Demoscene World</h1>
+      <div id="controls">
+        <button id="btn-fullscreen" title="Fullscreen (F)">[ ]</button>
+        <button id="btn-pause" title="Pause (Space)">||</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <div id="canvas-container">
+        <canvas id="demo-canvas"></canvas>
+      </div>
+
+      <nav id="navigation">
+        <div id="era-tabs">
+          <button class="era-tab active" data-era="oldschool">Old-School</button>
+          <button class="era-tab" data-era="golden">Golden Age</button>
+          <button class="era-tab" data-era="modern">Modern</button>
+        </div>
+
+        <div id="demo-grid"></div>
+
+        <div id="demo-info">
+          <h2 id="demo-title">Select a demo</h2>
+          <p id="demo-description">Choose an effect from the grid above</p>
+          <div id="demo-tags"></div>
+        </div>
+      </nav>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
