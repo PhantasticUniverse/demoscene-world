@@ -24,6 +24,7 @@ npm run dev
 | Plasma | 1986 | Classic sine-wave color cycling effect | Demoscene World |
 | Starfield | 1987 | 3D starfield flying through space | Demoscene World |
 | Fire | 1988 | Real-time fire simulation with heat propagation | Demoscene World |
+| Copper Bars | 1988 | Amiga copper bars with sine wave motion | Claude (Amiga homage) |
 | Aurora Borealis | 2025 | Northern lights with layered sine waves | Claude |
 
 ### Golden Age Era (Canvas 2D)
@@ -36,6 +37,8 @@ npm run dev
 | Strange Attractor | 2025 | Lorenz attractor with particle trails | Claude |
 | Crystal Voronoi | 2025 | Animated Voronoi cells with edge glow | Claude |
 | Flow Field | 2025 | Curl noise particles with persistent trails | Claude |
+| Interference | 2025 | Wave superposition with moving point sources | Claude |
+| Fourier Epicycles | 2025 | Drawing with rotating circles (DFT visualization) | Claude |
 
 ### Modern Era (WebGL2)
 
@@ -47,6 +50,12 @@ npm run dev
 | Alien Terrain | 2025 | Domain warping: fbm(p + fbm(p + fbm(p))) | Claude (Inigo Quilez technique) |
 | Deep Sea | 2025 | Bioluminescent jellyfish with SDFs | Claude |
 | Hyperbolic Tessellation | 2025 | Poincare disk with {7,3} tiling | Claude (Escher-inspired) |
+| Event Horizon | 2025 | Black hole with gravitational lensing and accretion disk | Claude |
+| Tesseract | 2025 | 4D hypercube rotating through six planes | Claude |
+| Lenia | 2025 | Continuous cellular automata with organic lifeforms | Claude (Bert Chan's Lenia) |
+| Quantum Foam | 2025 | Virtual particle pairs in vacuum fluctuations | Claude |
+| Mycelium | 2025 | Fungal network with bioluminescent veins | Claude |
+| Klein Flow | 2025 | Mobius strip with particles revealing one-sidedness | Claude |
 
 ## Adding New Demos
 
