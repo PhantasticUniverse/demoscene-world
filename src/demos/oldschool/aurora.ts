@@ -6,9 +6,9 @@ export class AuroraDemo implements Demo {
     id: 'aurora',
     name: 'Aurora Borealis',
     era: 'oldschool',
-    year: 1989,
+    year: 2025,
     description: 'Northern lights dancing across a starry sky. Layered sine waves create shimmering curtains of light with traveling bright nodes.',
-    author: 'Demoscene World',
+    author: 'Claude',
     renderer: 'canvas2d',
     tags: ['sine', 'palette', 'atmospheric', 'procedural'],
   };

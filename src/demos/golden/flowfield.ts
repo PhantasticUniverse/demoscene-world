@@ -12,9 +12,9 @@ export class FlowFieldDemo implements Demo {
     id: 'flowfield',
     name: 'Flow Field',
     era: 'golden',
-    year: 1998,
+    year: 2025,
     description: 'Thousands of particles flow along curl noise vector fields, creating rivers of light that converge and spiral. Trails build up intricate interference patterns.',
-    author: 'Demoscene World',
+    author: 'Claude',
     renderer: 'canvas2d',
     tags: ['particles', 'noise', 'curl', 'procedural', 'trails'],
   };

@@ -13,9 +13,9 @@ export class VoronoiDemo implements Demo {
     id: 'voronoi',
     name: 'Crystal Voronoi',
     era: 'golden',
-    year: 1997,
+    year: 2025,
     description: 'Crystalline Voronoi cells that form, merge, and split as seeds dance across the screen. Edge glow creates a stained-glass aesthetic.',
-    author: 'Demoscene World',
+    author: 'Claude',
     renderer: 'canvas2d',
     tags: ['voronoi', 'procedural', 'geometric', 'cells'],
   };

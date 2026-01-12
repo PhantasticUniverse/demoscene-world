@@ -261,9 +261,9 @@ export class JellyfishDemo implements Demo {
     id: 'jellyfish',
     name: 'Deep Sea',
     era: 'modern',
-    year: 2018,
+    year: 2025,
     description: 'Bioluminescent jellyfish drift through dark waters. SDFs create translucent creatures with pulsing bells and trailing tentacles, surrounded by glowing plankton.',
-    author: 'Demoscene World',
+    author: 'Claude',
     renderer: 'webgl2',
     tags: ['raymarching', 'sdf', 'organic', 'underwater', 'bioluminescence'],
   };

@@ -215,9 +215,9 @@ export class HyperbolicDemo implements Demo {
     id: 'hyperbolic',
     name: 'Hyperbolic Tessellation',
     era: 'modern',
-    year: 2020,
+    year: 2025,
     description: 'The Poincare disk model of hyperbolic geometry filled with {7,3} tessellation - heptagons with three meeting at each vertex. Rotation in hyperbolic space looks utterly alien.',
-    author: 'Demoscene World / Escher-inspired',
+    author: 'Claude (Escher-inspired)',
     renderer: 'webgl2',
     tags: ['non-euclidean', 'hyperbolic', 'tessellation', 'mathematical', 'mobius'],
   };

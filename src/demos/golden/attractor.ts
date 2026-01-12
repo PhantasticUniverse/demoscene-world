@@ -12,9 +12,9 @@ export class AttractorDemo implements Demo {
     id: 'attractor',
     name: 'Strange Attractor',
     era: 'golden',
-    year: 1996,
+    year: 2025,
     description: 'Lorenz attractor visualization with thousands of particles tracing chaos. The butterfly-shaped structure reveals hidden geometry within mathematical chaos.',
-    author: 'Demoscene World',
+    author: 'Claude',
     renderer: 'canvas2d',
     tags: ['chaos', 'particles', 'mathematical', '3d', 'attractor'],
   };

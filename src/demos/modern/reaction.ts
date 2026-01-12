@@ -124,9 +124,9 @@ export class ReactionDiffusionDemo implements Demo {
     id: 'reaction',
     name: 'Reaction-Diffusion',
     era: 'modern',
-    year: 2012,
+    year: 2025,
     description: 'Gray-Scott reaction-diffusion system. Two chemicals react and diffuse, creating emergent patterns that look like coral, fingerprints, and alien landscapes.',
-    author: 'Karl Sims / Gray-Scott model',
+    author: 'Claude (Gray-Scott model)',
     renderer: 'webgl2',
     tags: ['reaction-diffusion', 'simulation', 'procedural', 'emergent', 'organic'],
   };

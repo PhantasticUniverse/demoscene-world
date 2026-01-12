@@ -17,36 +17,36 @@ npm run dev
 
 ## Demos
 
-### Old-School Era (Pre-1990s, Canvas 2D)
+### Old-School Era (Canvas 2D)
 
 | Demo | Year | Description | Credits |
 |------|------|-------------|---------|
 | Plasma | 1986 | Classic sine-wave color cycling effect | Demoscene World |
 | Starfield | 1987 | 3D starfield flying through space | Demoscene World |
 | Fire | 1988 | Real-time fire simulation with heat propagation | Demoscene World |
-| Aurora Borealis | 1989 | Northern lights with layered sine waves | Demoscene World |
+| Aurora Borealis | 2025 | Northern lights with layered sine waves | Claude |
 
-### Golden Age Era (1990s-2000s, Canvas 2D)
+### Golden Age Era (Canvas 2D)
 
 | Demo | Year | Description | Credits |
 |------|------|-------------|---------|
 | Tunnel | 1993 | Infinite tunnel with polar coordinate mapping | Demoscene World |
 | Rotozoom | 1994 | Rotating and zooming texture effect | Demoscene World |
 | Metaballs | 1995 | Organic blob simulation | Demoscene World |
-| Strange Attractor | 1996 | Lorenz attractor with particle trails | Demoscene World |
-| Crystal Voronoi | 1997 | Animated Voronoi cells with edge glow | Demoscene World |
-| Flow Field | 1998 | Curl noise particles with persistent trails | Demoscene World |
+| Strange Attractor | 2025 | Lorenz attractor with particle trails | Claude |
+| Crystal Voronoi | 2025 | Animated Voronoi cells with edge glow | Claude |
+| Flow Field | 2025 | Curl noise particles with persistent trails | Claude |
 
-### Modern Era (2010s+, WebGL2)
+### Modern Era (WebGL2)
 
 | Demo | Year | Description | Credits |
 |------|------|-------------|---------|
 | Raymarcher | 2010 | Real-time raymarching with SDFs | Demoscene World |
 | Fractal Zoom | 2011 | Mandelbrot set infinite zoom | Demoscene World |
-| Reaction-Diffusion | 2012 | Gray-Scott model simulation | Karl Sims / Gray-Scott model |
-| Alien Terrain | 2015 | Domain warping: fbm(p + fbm(p + fbm(p))) | Inigo Quilez technique |
-| Deep Sea | 2018 | Bioluminescent jellyfish with SDFs | Demoscene World |
-| Hyperbolic Tessellation | 2020 | Poincare disk with {7,3} tiling | Demoscene World / Escher-inspired |
+| Reaction-Diffusion | 2025 | Gray-Scott model simulation | Claude (Gray-Scott model) |
+| Alien Terrain | 2025 | Domain warping: fbm(p + fbm(p + fbm(p))) | Claude (Inigo Quilez technique) |
+| Deep Sea | 2025 | Bioluminescent jellyfish with SDFs | Claude |
+| Hyperbolic Tessellation | 2025 | Poincare disk with {7,3} tiling | Claude (Escher-inspired) |
 
 ## Adding New Demos
 

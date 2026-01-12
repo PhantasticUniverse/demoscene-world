@@ -153,9 +153,9 @@ export class DomainWarpDemo implements Demo {
     id: 'domainwarp',
     name: 'Alien Terrain',
     era: 'modern',
-    year: 2015,
+    year: 2025,
     description: 'Domain warping creates alien landscapes using fbm(p + fbm(p + fbm(p))). Each noise layer distorts the next, producing impossibly organic, otherworldly formations.',
-    author: 'Inigo Quilez technique',
+    author: 'Claude (Inigo Quilez technique)',
     renderer: 'webgl2',
     tags: ['noise', 'procedural', 'terrain', 'shader', 'domain-warping'],
   };
